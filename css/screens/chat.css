@@ -1,0 +1,25 @@
+.users__column {
+    position: relative;
+}
+.users__column__notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    background-color: var(--notification-color);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.users__column__time {
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+}

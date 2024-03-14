@@ -1,0 +1,23 @@
+.static-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.static-header__title {
+    font-size: 35px;
+    font-weight: 600;
+}
+.static-header__icons {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.static-header__icons i {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.static-header__icons i:hover {
+    color: orange;
+}

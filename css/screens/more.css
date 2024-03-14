@@ -1,0 +1,45 @@
+.users__column--me i {
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+}
+@keyframes rainbow {
+    0% {
+        color: red;
+        transition: all 0.2s ease-in-out;
+    }
+    15% {
+        color: orange;
+        transition: all 0.2s ease-in-out;
+    }
+    20% {
+        color: yellow;
+        transition: all 0.2s ease-in-out;
+    }
+    45% {
+        color: green;
+        transition: all 0.2s ease-in-out;
+    }
+    65% {
+        color: blue;
+        transition: all 0.2s ease-in-out;
+    }
+    80% {
+        color: gray;
+        transition: all 0.2s ease-in-out;
+    }
+    100% {
+        color: purple;
+        transition: all 0.2s ease-in-out;
+    }
+}
+.users__column--me i:hover {
+    will-change: color;
+    animation: rainbow 0.2s ease-in-out infinite;
+}
+.more-icons {
+    margin-top: -20px;
+}
+.suggestion-icons {
+    padding-right: 100.5px;
+}

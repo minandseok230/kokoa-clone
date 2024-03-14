@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi" style="color: #5c6970"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:23</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-rotate-270"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header__text">
+        <span>If you have a Kakao Account,</span>
+        <span>log in with your email or phone number.</span>
+      </p>
+    </header>
+    <form class="log-in-form" action="friends.html" method="get">
+      <input type="text" placeholder="Email or Phone Number" />
+      <input type="text" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+    </form>
+    <p class="find-account">
+      <a href="#">Find Email or Phone Number</a> or <a href="#">Password</a>
+    </p>
+    <div class="splash-screen">
+      <div class="splash-screen__column">
+        <i class="fa-solid fa-comment"></i>
+        <span>Kokoa</span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b6eaebb57b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.text-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a2d2ff;
+    height: 40px;
+    padding: 0px 105px;
+}
+.text-info i, span {
+    opacity: 0.7;
+}
+html {
+    position: relative;
+}

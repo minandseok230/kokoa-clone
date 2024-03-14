@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kokoa Talk - Chat</title>
+    <style>
+      .nav__ul__li:nth-child(2) {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi" style="color: #5c6970"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:23</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-rotate-270"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="static-header">
+      <h1 class="static-header__title">Chat</h1>
+      <div class="static-header__icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-comment-dots"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </header>
+    <main>
+      <div class="users">
+        <div class="users__column users__column--friends">
+          <img src="imgs/friend1.jpg" class="users__column__image" />
+          <div class="users__column__text users__column__text--friend">
+            <h3>Josh</h3>
+            <h4>Hey!</h4>
+          </div>
+          <div class="users__column__time">06:30</div>
+          <div class="users__column__notification">2</div>
+        </div>
+        <div class="users__column users__column--friends">
+          <img src="imgs/friend2.jpg" class="users__column__image" />
+          <div class="users__column__text users__column__text--friend">
+            <h3>Amanda</h3>
+            <h4>Do you have time on the weekend?</h4>
+          </div>
+          <div class="users__column__time">03/10</div>
+          <div class="users__column__notification">1</div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__li">
+          <a class="nav__ul__li__a" href="friends.html"
+            ><i class="fa-solid fa-user"></i><span>Friends</span></a
+          >
+        </li>
+        <li class="nav__ul__li nav__ul__li--chat">
+          <a class="nav__ul__li__a" href="chat.html"
+            ><i class="fa-solid fa-comment"></i><span>Chat</span></a
+          >
+          <div class="nav__ul__li--chat__notification">3</div>
+        </li>
+        <li class="nav__ul__li">
+          <a class="nav__ul__li__a" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></a
+          >
+        </li>
+        <li class="nav__ul__li">
+          <a class="nav__ul__li__a" href="more.html"
+            ><i class="fa-solid fa-ellipsis"></i><span>More</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/b6eaebb57b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

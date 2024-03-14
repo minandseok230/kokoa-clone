@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kokoa Talk - Friends</title>
+    <style>
+      .nav__ul__li:nth-child(1) {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi" style="color: #5c6970"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:23</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-rotate-270"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="static-header">
+      <h1 class="static-header__title">Friends</h1>
+      <div class="static-header__icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-comment-dots"></i>
+        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </header>
+    <a href="#" class="text-info">
+      <i class="fa-solid fa-circle-info"></i>
+      <span>Friends' Names Display</span>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+    <main>
+      <div class="users">
+        <div class="users__column users__column--me">
+          <img
+            src="imgs/me.jpg"
+            class="users__column__image users__column__image--me"
+          />
+          <div class="users__column__text users__column__text--me">
+            <h3>Min</h3>
+            <h4>Hello.</h4>
+          </div>
+        </div>
+        <div class="users__text users__text--channels">
+          Channels
+          <span>1<i class="fa-solid fa-angle-up"></i></span>
+        </div>
+        <div class="users__column users__column--channels">
+          <img src="imgs/channel.jpg" class="users__column__image" />
+          <div class="users__column__text users__column__text--channel">
+            <h3>LP Factory</h3>
+            <h4>Welcome to LP Factory.</h4>
+          </div>
+        </div>
+        <div class="users__text users__text--friends">
+          Friends<span>2<i class="fa-solid fa-angle-up"></i></span>
+        </div>
+        <div class="users__column users__column--friends">
+          <img src="imgs/friend1.jpg" class="users__column__image" />
+          <div class="users__column__text users__column__text--friend">
+            <h3>Josh</h3>
+            <h4>Travel is my life.</h4>
+          </div>
+        </div>
+        <div class="users__column users__column--friends">
+          <img src="imgs/friend2.jpg" class="users__column__image" />
+          <div class="users__column__text users__column__text--friend">
+            <h3>Amanda</h3>
+            <h4>I like cooking.</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__li">
+          <a class="nav__ul__li__a" href="friends.html"
+            ><i class="fa-solid fa-user"></i><span>Friends</span></a
+          >
+        </li>
+        <li class="nav__ul__li nav__ul__li--chat">
+          <a class="nav__ul__li__a" href="chat.html"
+            ><i class="fa-solid fa-comment"></i><span>Chat</span></a
+          >
+          <div class="nav__ul__li--chat__notification">3</div>
+        </li>
+        <li class="nav__ul__li">
+          <a class="nav__ul__li__a" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></a
+          >
+        </li>
+        <li class="nav__ul__li">
+          <a class="nav__ul__li__a" href="more.html"
+            ><i class="fa-solid fa-ellipsis"></i><span>More</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/b6eaebb57b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Madimi+One&family=Varela+Round&display=swap');
+@import url(reset.css);
+@import url(variables.css);
+/* components */
+@import url(components/stasus-bar.css);
+@import url(components/nav-bar.css);
+@import url(components/static-header.css);
+@import url(components/users.css);
+/* screens */
+@import url(screens/login-page.css);
+@import url(screens/friends.css);
+@import url(screens/chat.css);
+@import url(screens/search.css);
+@import url(screens/more.css);
+body {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 450px;
+    height: 740px;
+    border: 3px solid;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.splash-screen {
+    background-color: #faedcd;
+    position: absolute;
+    top: 0;
+    border-radius: 18px;
+    width: 443px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: hideSplashScreen 1.5s ease-in-out forwards;
+}
+.splash-screen__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;
+    font-weight: 700;
+    font-size: 60px;
+    transition: color 1s ease-in-out;
+}
+.splash-screen__column > i {
+    font-size: 100px;
+
+}
+.splash-screen__column > span:hover  {
+        color: #dda15e;
+        cursor: pointer;
+}

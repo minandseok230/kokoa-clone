@@ -1,0 +1,77 @@
+.find-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px 0px 20px;
+    padding-bottom: 20px;
+}
+.find-icons__column {
+    width: 100px;
+    text-align: center;
+}
+.find-icons__column i{
+    transition: all 0.2s ease-in-out;
+}
+.find-icons__column:hover i{
+    color: #ffb703;
+}
+.find-icons__column a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+.find-icons__column span {
+    opacity: 1;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.users__text--search {
+    margin: 0 20px;
+}
+.recommend-friends {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+}
+.open-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.open-chat__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    width: 100%;
+}
+.open-chat__column__info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 70px;
+}
+.open-chat__column__info > span:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    font-size: 13px;
+}
+.open-chat__column__info > span:nth-child(3) > span:nth-child(4) {
+    color: #fb6f92;
+}
+.open-chat__column__info__img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.open-chat__column__img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
